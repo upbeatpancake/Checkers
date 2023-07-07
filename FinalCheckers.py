@@ -158,7 +158,6 @@ class CheckersBoard:
                 return False
             # if piece can move or jump
             if coords in self.all_possible_moves().keys():
-                len(self.all_possible_moves()[coords]) > 0
                 return True
         return False
     
